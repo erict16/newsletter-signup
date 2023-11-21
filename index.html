@@ -6,74 +6,74 @@
   <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <title>Newsletter sign-up form</title>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
       .attribution {
           font-size: 11px;
           text-align: center;
       }
-
       .attribution a {
           color: hsl(228, 45%, 44%);
       }
-
       .success-paragraph {
           display: none;
       }
   </style>
 </head>
+
 <body>
-<!-- Sign-up form start -->
-<!-- Container with 2 columns -->
-<div class="container">
-<!--  Left column -->
-  <div class="column-left">
-    <h1>Stay updated!</h1>
+<main>
+  <!-- Sign-up form start -->
+  <div class="container">
 
-    <p>Join 60,000+ product managers receiving monthly updates on:</p>
+    <!--  Left column -->
+    <div class="content">
+      <h1>Stay updated!</h1>
 
-    <div>
-      <p>Product discovery and building what matters</p>
-      <p>Measuring to ensure updates are a success</p>
-      <p>And much more!</p>
+      <p>Join 60,000+ product managers receiving monthly updates on:</p>
+
+      <ul>
+        <li>Product discovery and building what matters</li>
+        <li>Measuring to ensure updates are a success</li>
+        <li>And much more!</li>
+      </ul>
+
+      <form action="">
+        <label>Email address</label>
+        <input type="text" id="emailInput" value="" placeholder="email@company.com">
+        <button type="submit">Subscribe to monthly newsletter</button>
+      </form>
     </div>
 
-    <form action="">
-      <label>Email address</label>
-      <input type="text" id="emailInput" value="" placeholder="email@company.com">
-      <button type="submit">Subscribe to monthly newsletter</button>
-    </form>
+    <!--  Right Column-->
+    <div class="image">
+      <img src="assets/images/illustration-sign-up-desktop.svg">
+    </div>
+
   </div>
 
-<!--  Column right-->
-  <div class="column-right">
-    <img src="assets/images/illustration-sign-up-desktop.svg">
+  <!-- Success message start -->
+  <div class="success-paragraph">
+    Thanks for subscribing!
+
+    A confirmation email has been sent to ash@loremcompany.com.
+    Please open it and click the button inside to confirm your subscription.
+
+    Dismiss message
   </div>
-</div>
 
 
-<!-- Sign-up form end -->
+  <!-- Success message end -->
 
-<!-- Success message start -->
-<div class="success-paragraph">
-  Thanks for subscribing!
+<!--  <div class="attribution">-->
+<!--    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.-->
+<!--    Coded by <a href="#">Eric Tan</a>.-->
+<!--  </div>-->
 
-  A confirmation email has been sent to ash@loremcompany.com.
-  Please open it and click the button inside to confirm your subscription.
+  <!--  javascript -->
+  <script src="scripts.js"></script>
+</main>
 
-  Dismiss message
-</div>
-
-
-<!-- Success message end -->
-
-<div class="attribution">
-  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-  Coded by <a href="#">Your Name Here</a>.
-</div>
-
-<!--  javascript -->
-<script src="scripts.js"></script>
 </body>
 </html>
