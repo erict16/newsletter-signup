@@ -30,8 +30,7 @@ main {
 }
 
 img {
-    width: 95%;
-    display: block;
+    /*display: block;*/
     padding: 10px;
 }
 
