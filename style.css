@@ -1,43 +1,12 @@
-main {
-    background-color: hsl(234, 29%, 20%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* Mobile first design */
+
+* {
+    padding: 0;
+    margin: 0;
 }
 
-.container {
-    border: solid;
-    width: 70%;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    overflow: hidden;
-    margin: 100px;
 
-}
-
-.content {
-    flex: 1;
-    padding: 20px;
-    width: 300px;
-
-}
-
-.image {
-
-}
-
-img {
-    /*display: block;*/
-    padding: 10px;
-}
-
-form {
-    display: grid;
-}
-
-.attribution {
-
+.hero-image {
+    width: 100%;
+    height: auto;
 }
