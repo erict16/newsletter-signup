@@ -28,7 +28,7 @@
                 <li><img class="list-icon" src="assets/images/icon-list.svg" alt=""><div>And much more!</div></li>
             </ul>
 
-            <form id="email-form" onsubmit="validateForm(event)">
+            <form id="email-form">
                 <label>Email address:</label>
                 <input
                         type="email"
@@ -37,7 +37,7 @@
                         placeholder="email@company.com"
                         required
                 />
-                <button type="submit">Subscribe to monthly newsletter</button>
+                <button type="button" onclick="validateEmail(event)">Subscribe to monthly newsletter</button>
             </form>
         </div>
 

@@ -1,4 +1,4 @@
-function validateForm(event) {
+function validateEmail(event) {
       // Get the email input value
       var emailInput = document.getElementById('emailInput');
       var email = emailInput.value;
