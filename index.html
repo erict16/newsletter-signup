@@ -28,13 +28,14 @@
                 <li><img class="list-icon" src="assets/images/icon-list.svg" alt=""><div>And much more!</div></li>
             </ul>
 
-            <form action="">
+            <form id="email-form" onsubmit="validateForm(event)">
                 <label>Email address:</label>
                 <input
-                        type="text"
+                        type="email"
                         id="emailInput"
-                        value=""
+                        name="email"
                         placeholder="email@company.com"
+                        required
                 />
                 <button type="submit">Subscribe to monthly newsletter</button>
             </form>
