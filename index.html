@@ -23,9 +23,15 @@
             <h1>Stay updated!</h1>
             <p>Join 60,000+ product managers receiving monthly updates on:</p>
             <ul>
-                <li><img class="list-icon" src="assets/images/icon-list.svg" alt=""><div>Product discovery and building what matters</div></li>
-                <li><img class="list-icon" src="assets/images/icon-list.svg" alt=""><div>Measuring to ensure updates are a success</div></li>
-                <li><img class="list-icon" src="assets/images/icon-list.svg" alt=""><div>And much more!</div></li>
+                <li><img class="list-icon" src="assets/images/icon-list.svg" alt="">
+                    <div>Product discovery and building what matters</div>
+                </li>
+                <li><img class="list-icon" src="assets/images/icon-list.svg" alt="">
+                    <div>Measuring to ensure updates are a success</div>
+                </li>
+                <li><img class="list-icon" src="assets/images/icon-list.svg" alt="">
+                    <div>And much more!</div>
+                </li>
             </ul>
 
             <form id="email-form">
@@ -45,11 +51,15 @@
     </div>
 
     <!-- Success message start -->
-    <div class="success-message">
-        Thanks for subscribing! A confirmation email has been sent to
-        ash@loremcompany.com. Please open it and click the button inside to
-        confirm your subscription. Dismiss message
+    <div class="success-background">
+        <div class="success-container">
+            <img id="icon-success" src="assets/images/icon-success.svg" alt="">
+            <h1 id="success-heading">Thanks for subscribing! </h1>
+            <p id="success-message"></p>
+            <button type="button" id="success-button">Dismiss the message</button>
+        </div>
     </div>
+
 
     <script src="scripts.js"></script>
 </main>
